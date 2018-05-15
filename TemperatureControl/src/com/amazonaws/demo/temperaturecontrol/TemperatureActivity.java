@@ -43,12 +43,12 @@ public class TemperatureActivity extends Activity {
 
     // Customer specific IoT endpoint
     // AWS Iot CLI describe-endpoint call returns: XXXXXXXXXX.iot.<region>.amazonaws.com
-    private static final String CUSTOMER_SPECIFIC_ENDPOINT = "CHANGE_ME";
+    private static final String CUSTOMER_SPECIFIC_ENDPOINT = "a1olq1gp3frg18.iot.eu-west-1.amazonaws.com";
     // Cognito pool ID. For this app, pool needs to be unauthenticated pool with
     // AWS IoT permissions.
-    private static final String COGNITO_POOL_ID = "CHANGE_ME";
+    private static final String COGNITO_POOL_ID = "eu-west-1:1d4a1623-4209-4508-ad6e-6769356fe84a";
     // Region of AWS IoT
-    private static final Regions MY_REGION = Regions.US_EAST_1;
+    private static final Regions MY_REGION = Regions.EU_WEST_1;
 
     CognitoCachingCredentialsProvider credentialsProvider;
 
